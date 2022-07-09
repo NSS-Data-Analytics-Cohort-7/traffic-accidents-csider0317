@@ -20,17 +20,17 @@ b. Are there any rows that involved zero vehicles? How many? Make sure that your
 c. Investigate the rows that have zero vehicles using the FILTER function in the "Zero Car Crashes" sheet. What do you find?  
 d. What percentage of crashes are single-car?
 
-4. How many accidents occurred which are hit and run and had at least one injury?
+4. How many accidents occurred which are hit and run and had at least one injury? 7535
 
 5. a. What is the overall average number of injuries?  
-b. Go to the "Collision Types" sheet and fill in the table to find the total number of crashes, average number of injuries, and total number of injuries per collision type. What do you find?
+b. Go to the "Collision Types" sheet and fill in the table to find the total number of crashes, average number of injuries, and total number of injuries per collision type. What do you find? Head on causes injuires the majority of the time.  
 
 6. a. Add three new columns, Month, Year, and Hour to the right of the Date and Time column. Use the [TEXT function](https://support.microsoft.com/en-us/office/text-function-20d5ac4d-7b94-49fd-bb38-93d29371225c) to extract out the Month, Year, and Hour from the "Date and Time" column.  
 b. Add one more new column, Weekday, and use the WEEKDAY function to extract out the day of the week from the Date and Time column. Use the TEXT function in combination with the WEEKDAY function to display the result as the name of the weekday (eg. Monday).
 
-7. Fill in the Hour table in the Analysis spreadsheet to find the number of accidents that occurred for each hour of the day. Do this by writing a single formula and copying it down the table. Do you see anything unusual? What might be the explanation for this?
+7. Fill in the Hour table in the Analysis spreadsheet to find the number of accidents that occurred for each hour of the day. Do this by writing a single formula and copying it down the table. Do you see anything unusual? What might be the explanation for this? Rush hours have the most accidents with midnight right behind it. Rush hour as people are in a hurry to get to work or home, midnight is proably substance use realted 
 
-8. Do the same for the year and day of the week. What stands out?
+8. Do the same for the year and day of the week. What stands out? Accidents went down in 2020 and Fridays has the most accidnents 
 
 9. Add a column to the right of the Collision Type Code called "Collision Type". Use the table contained in the Collision Types sheet to fill in this column. 
 
